@@ -1,0 +1,11 @@
+
+
+# NPM packages folder.
+node_modules/
+
+
+# Nova
+.dist/
+.dev/
+
+**/.DS_Store

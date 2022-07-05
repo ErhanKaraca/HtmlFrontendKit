@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    @@include('_head.html')
+    <link rel="stylesheet" href="@@webRoot/assets/css/colors/purple.css">
+    <link rel="preload" href="@@webRoot/assets/css/fonts/thicccboi.css" as="style" onload="this.rel='stylesheet'">
+</head>
+
+<body>
+    @@include('_navbar.html', {
+        "classList": "transparent navbar-light",
+        "useContainer": true
+    })
+
+    @@include('_page-progress.html')
+    @@include('_scripts.html')
+</body>
+
+</html>
